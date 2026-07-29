@@ -23,6 +23,15 @@
             width:80px;
             height:80px;
         }
+        article{
+            display: flex;
+        }
+        .artigo-autor{
+            font-weight: bold;
+        }
+        footer{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -36,7 +45,7 @@
             <img src="imagem-blog.png">
             <div>
                 <h2>Minha primeira postagem de games</h2>
-                <p>Por: Rodrigo Mendes</p>
+                <p class="artigo-autor">Por: Rodrigo Mendes</p>
                 <p>Boas vindas ao meu blog! Vou compartilhar curiosidades<br>
                    sobre games de Shum Up, Metroidvania e RPG.
                 </p>
@@ -44,10 +53,23 @@
                 <button>🤣<span>0</span></button>
             </div>
         </article>
+
+        <article>
+            <img src="segundo.png">
+            <div>
+                <h2>Modificações de vídeo games antigos</h2>
+                <p class="artigo-autor">Por: Rodrigo Mendes</p>
+                <p>Existem modificações que melhoram imagem sem esticar a resolução original.<br>
+                   As modificações requer conhecimento em eletrônica, já que a modificação é<br>
+                   diretamente no circuito. Exemplos mais comuns são os modHDMI.</p>
+                <button>👍<span>0</span></button>
+                <button>🤣<span>0</span></button>
+            </div>
+        </article>
     </main>
     
     <footer>
-
+        <p><strong>Todos os direitos estão reservados ao autor do blog.</strong></p>
     </footer>
 </body>
 </html>
